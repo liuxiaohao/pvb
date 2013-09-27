@@ -166,7 +166,6 @@ int main(int ac, char **av)
 {
 PARAM p;
 int   s;
-
   pvInit(ac,av,&p);
   /* here you may interpret ac,av and set p->user to your data */
   while(1)

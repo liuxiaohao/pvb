@@ -6,17 +6,17 @@ rem -------------------------------------------------------
 
 rem set directories for needed tools
 rem directories where qt and mingw are installed
-SET QTDIR=C:\Qt\4.8.2
-SET MINGWDIR=C:\mingw
+ set   QTDIR=C:\Qt\4.8.5
+ set   MINGWDIR=C:\mingw
+
 rem tools necessary for language bindings
-SET SWIGDIR=Z:\win\swigwin-1.3.33
-SET PYDIR=C:\Python25
-SET VTKDIR=z:\Downloads\vtk\VTK5.10.1
-SET TCLDIR=c:\Tcl
-SET TCLLIBPATH=c:\Tcl\Tcl8.5;z:/Downloads/vtk/bin/Wrapping/Tcl
+SET SWIGDIR=C:\software\swigwin-1.3.33
+set   PYDIR=c:\Python27
+SET VTKDIR=C:\software\VTK6.0.0
+SET TCLDIR=C:\software\tcl8.5.0
+SET TCLLIBPATH=C:\software\tcl8.5.0;C:\software\VTK6.0.0\Wrapping\Tcl
 rem change to directory with our sources
-SET PVBDIR=Z:\cc\priv\cvs\pvb
-z:
+SET PVBDIR=C:\workspace\pvb
 cd  %PVBDIR%\win-mingw
 
 rem setup path variables
